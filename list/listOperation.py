@@ -21,3 +21,5 @@ print(lst1)             #reversing
 
 lst0.clear()       #empty list
 print(lst0)
+
+
