@@ -1,0 +1,5 @@
+a = int(input())
+b = int(input())
+c = int(input())
+smallest = min(a, b, c)
+print(smallest)
