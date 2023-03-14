@@ -1,0 +1,5 @@
+my_tuple = ('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h')
+my_list = list(my_tuple)
+my_list.reverse()
+my_tuple_reversed = tuple(my_list)
+print(my_tuple_reversed)
