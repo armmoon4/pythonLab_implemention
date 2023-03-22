@@ -5,7 +5,7 @@ wn = turtle.Screen()
 wn.bgcolor("lightgreen")        # set the window background color
 
 tess = turtle.Turtle()
-tess.color("blue")              # make tess blue
+tess.color("purple")              # make tess blue
 tess.pensize(3)                 # set the width of her pen
 
 tess.forward(50)
