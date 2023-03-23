@@ -1,6 +1,6 @@
 import turtle
 wn = turtle.Screen()             # Set up the window and its attributes
-wn.bgcolor("lightgreen")
+wn.bgcolor("lightblue")
 tess = turtle.Turtle()           # create tess and set his pen width
 tess.pensize(5)
 alex = turtle.Turtle()           # create alex
