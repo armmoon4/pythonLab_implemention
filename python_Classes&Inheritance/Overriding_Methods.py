@@ -11,7 +11,7 @@ class PaperBook(Book):
         self.numPages = numPages
 
 class EBook(Book):
-    def __int__(self , title , author , size):
+    def __init__(self , title , author , size):
         Book.__init__(self , title , author)
         self.size = size
 
