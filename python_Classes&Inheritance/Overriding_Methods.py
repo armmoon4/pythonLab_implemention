@@ -6,12 +6,12 @@ class Book:
         return '"{}" by {}'.format(self.title , self.author)
 
 class PaperBook(Book):
-    def __init__(self , title , author , numPages):
+    def __int__(self , title , author , numPages):
         Book.__init__(self , title , author)
         self.numPages = numPages
 
 class EBook(Book):
-    def __init__(self , title , author , size):
+    def __int__(self , title , author , size):
         Book.__init__(self , title , author)
         self.size = size
 
@@ -20,5 +20,3 @@ Tbook = Book('The Odyssey' , 'Homer')
 myBook = EBook('The Odyssey' , 'Homer' , 2)
 myPaperBook = PaperBook('The Odyssey' , 'Homer' , 500)
 print(Tbook)
-print(myBook.size)
-print(myPaperBook.numPages)
