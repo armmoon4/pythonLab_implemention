@@ -1,4 +1,4 @@
-class Superclass:
+class Superclass():
     def __init__(self):
         self.attribute = "Hello, I am from the superclass."
 
