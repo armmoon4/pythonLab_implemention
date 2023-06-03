@@ -1,0 +1,12 @@
+import numpy as np
+grades = np.array([[87,96,70],[100,87,90],[94,77,90],[100,81,82]])
+print(grades)
+print(grades[2])
+print('Your task is print third row secound coloum :')
+print(grades[2,1])
+print('\n')
+print(grades[0:2])
+print('secound row first two value print')
+print(grades[1 , 0:2])
+print(grades[:,1:3])
+print(grades[:, [0, 2]])
