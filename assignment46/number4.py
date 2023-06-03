@@ -1,7 +1,7 @@
 import numpy as np
 
 # Create a 3D array filled with zeros
-array_3d = np.zeros((4, 3, 2))
+array_3d = np.zeros((3, 3, 3))
 
 # Extract the middle and right corner 2 rows
 middle_rows = array_3d[1:3, :, :]
